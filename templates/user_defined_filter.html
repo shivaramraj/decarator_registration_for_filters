@@ -1,0 +1,21 @@
+{% load usdfilter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user_defined_filter</title>
+</head>
+<body>
+    <center><h1>user_defined_filter</h1>
+        <h1>{{data}}</h1>
+        <h1>{{data|remove_chr:'a'}}</h1>
+        <h1>{{data|counting:'B'}}</h1>
+    
+    {{data|Swap}}
+    
+    </center>
+
+</body>
+</html>
